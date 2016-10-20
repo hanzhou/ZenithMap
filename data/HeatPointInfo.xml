@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <PointLatLng>
+    <Lng>114.39398288726807</Lng>
+    <Lat>30.630785322446663</Lat>
+  </PointLatLng>
+  <PointLatLng>
+    <Lng>114.39183712005615</Lng>
+    <Lat>30.62958517784336</Lat>
+  </PointLatLng>
+  <PointLatLng>
+    <Lng>114.3935751914978</Lng>
+    <Lat>30.628902011959696</Lat>
+  </PointLatLng>
+  <PointLatLng>
+    <Lng>114.39447641372681</Lng>
+    <Lat>30.628772763817544</Lat>
+  </PointLatLng>
+  <PointLatLng>
+    <Lng>114.39471244812012</Lng>
+    <Lat>30.627683379760214</Lat>
+  </PointLatLng>
+  <PointLatLng>
+    <Lng>114.39372539520264</Lng>
+    <Lat>30.626981736078051</Lat>
+  </PointLatLng>
+  <PointLatLng>
+    <Lng>114.3877387046814</Lng>
+    <Lat>30.626852485371217</Lat>
+  </PointLatLng>
+  <PointLatLng>
+    <Lng>114.39087152481079</Lng>
+    <Lat>30.626889414162207</Lat>
+  </PointLatLng>
+</Root>

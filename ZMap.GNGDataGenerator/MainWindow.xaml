@@ -1,0 +1,60 @@
+﻿<Window x:Class="ZMap.GNGDataGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:bing="clr-namespace:ZMap.WPFControl;assembly=ZMap.WPFControl"
+        Title="MainWindow" Height="700" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition Height="Auto" MinHeight="30"></RowDefinition>
+            <RowDefinition Height="Auto" MinHeight="30"></RowDefinition>
+        </Grid.RowDefinitions>
+        <bing:MapControl x:Name="map"></bing:MapControl>
+        <StatusBar Grid.Row="1" Height="30" VerticalAlignment="Bottom" Background="Beige">
+            <StatusBarItem DockPanel.Dock="Right">
+                <Button x:Name="savePointBtn">Save</Button>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="Map width:"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock x:Name="MapWidthText" Width="27"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock Text="Map height:"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <TextBlock x:Name="MapHeightText" Width="27"/>
+            </StatusBarItem>
+        </StatusBar>
+        <StatusBar Grid.Row="2" Height="30" VerticalAlignment="Bottom" Background="Beige">
+            <StatusBarItem DockPanel.Dock="Right">
+                <TextBlock x:Name="Error" Text=""/>
+            </StatusBarItem>
+            <StatusBarItem >
+                <TextBlock Text="Lat:"/>
+            </StatusBarItem>
+            <StatusBarItem >
+                <TextBlock x:Name="LatitudeText" Width="80"/>
+            </StatusBarItem>
+            <StatusBarItem >
+                <TextBlock Text="Lng:"/>
+            </StatusBarItem>
+            <StatusBarItem >
+                <TextBlock x:Name="LongitudeText" Width="80"/>
+            </StatusBarItem>
+            <StatusBarItem >
+                <TextBlock Text="Level:"/>
+            </StatusBarItem>
+            <StatusBarItem >
+                <TextBlock x:Name="MapLevelText" Width="18"/>
+            </StatusBarItem>
+            <StatusBarItem >
+                <TextBlock Text="TileCount:"/>
+            </StatusBarItem>
+            <StatusBarItem >
+                <TextBlock x:Name="TileCountText" Width="18"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>
